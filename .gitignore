@@ -1,0 +1,31 @@
+# Configuration
+scripts/common-config.sh
+
+# Work state
+.claude/
+!.claude/.gitkeep
+
+# Temporary files
+.temp-config.sh
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Secrets
+.github-token
+*.token
+.env
